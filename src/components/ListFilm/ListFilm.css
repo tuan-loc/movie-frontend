@@ -1,0 +1,86 @@
+.tabLink {
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.tabLink:hover {
+  font-size: 1.5rem;
+}
+.list__button {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50px);
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 40 !important;
+  cursor: pointer !important;
+}
+.next-arrow {
+  right: 3px;
+}
+.prev-arrow {
+  left: 3px;
+}
+a.card__film {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+a.card__film .film__overlay {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: block;
+  width: 150px;
+  height: 200px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+a.card__film:hover .film__overlay {
+  opacity: 1;
+  visibility: visible;
+}
+.film__overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 3px;
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.film__overlay i:hover {
+  color: #fff;
+  border: 1px solid #fff;
+}
+img.list__item__img {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 150px !important;
+  height: 200px !important;
+}
+.slick-list h4 {
+  max-width: 150px;
+}
+.slick-track {
+  width: 100%;
+}

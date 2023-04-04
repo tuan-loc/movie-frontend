@@ -1,0 +1,1 @@
+export const GET_FILM_TICKET = 'GET_FILM_TICKET'

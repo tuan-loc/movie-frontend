@@ -1,0 +1,31 @@
+.filmList {
+  overflow-y: scroll;
+  width: 100%;
+  height: 40rem;
+}
+.filmList ul {
+  overflow-y: scroll;
+  margin: 0 !important;
+}
+.filmList ul li {
+  width: 100%;
+  padding: 10px 0;
+  margin: 0 !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.filmList ul li img {
+  width: 150px !important;
+  border-radius: 4px;
+}
+.schedule__film {
+  height: 12.5rem;
+}
+.showtime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showtime p {
+  width: 5em;
+}

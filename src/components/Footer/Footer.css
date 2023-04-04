@@ -1,0 +1,16 @@
+.footer {
+  background-color: #222;
+  color: #949494;
+}
+.footer__heading {
+  color: #fff;
+}
+.logoPartner img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
+.footer__top div ul li a {
+  color: #949494;
+}

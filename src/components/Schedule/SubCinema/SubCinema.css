@@ -1,0 +1,29 @@
+.subCinemaList {
+  overflow-x: scroll;
+}
+.subCinemaList ul {
+  overflow-x: scroll;
+  width: fit-content;
+  margin-bottom: 0 !important;
+  max-height: 38.2rem;
+}
+.subCinemaList ul li {
+  width: 14rem;
+}
+.subCinemaList ul li a img {
+  max-width: initial;
+  display: inline-block;
+  width: 40px;
+  background-color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .subCinemaList {
+    width: fit-content;
+    overflow: initial;
+  }
+  .subCinemaList ul {
+    width: fit-content;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}

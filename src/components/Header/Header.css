@@ -1,0 +1,54 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+.header a.header__navLink,
+.header a.header__navLink:hover,
+.header a.header__navLink:active,
+.header a.header__navLink:focus,
+.header span.header__navbarBrand {
+  position: relative;
+  margin: 0 0.8em;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none !important;
+  color: #010038;
+}
+
+.header span.header__navbarBrand {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.header__btn {
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 0 0.5rem;
+}
+.header__btn:hover,
+.header a.header__navLink:hover {
+  color: #fb4226;
+}
+
+.header a.header__navLink::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0%;
+  left: 50%;
+  transform: translate(0, -50%);
+  height: 1px;
+  background-color: #fb4226;
+  transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+
+.header a.header__navLink:hover::after {
+  left: 0%;
+  width: 100%;
+}

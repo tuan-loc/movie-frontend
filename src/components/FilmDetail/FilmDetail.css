@@ -1,0 +1,17 @@
+.filmDetail {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.filmDetail__button {
+  display: flex;
+  flex-direction: column;
+}
+span.ant-progress-text {
+  color: white !important;
+}
+@media screen and (min-width: 375px) {
+  .filmDetail__button {
+    flex-direction: row !important;
+  }
+}

@@ -1,0 +1,17 @@
+.showtimeDetail > div > div:last-child {
+  max-height: 6rem;
+  overflow: hidden;
+}
+.showtimeDetail .showtime a {
+  width: 5em;
+  margin-bottom: 1.125rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .showtimeDetail {
+    max-height: 38rem;
+  }
+  .showtimeDetail > div > div:last-child {
+    max-height: 9rem;
+  }
+}

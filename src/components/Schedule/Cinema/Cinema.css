@@ -1,0 +1,37 @@
+.cinemaList {
+  overflow-x: scroll;
+  margin-bottom: 0.5em;
+}
+.cinemaList ul {
+  overflow-x: scroll;
+  width: fit-content;
+  margin-bottom: 0 !important;
+}
+.cinemaList ul li a img {
+  max-width: initial;
+  display: inline-block;
+  width: 60px;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .cinemaList {
+    margin-right: 0.5em;
+    overflow: visible;
+    width: calc(100% / 6.5);
+  }
+  .cinemaList ul {
+    overflow: visible;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cinemaList {
+    width: calc(100% / 8.5);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cinemaList {
+    width: calc(100% / 10.5);
+  }
+}

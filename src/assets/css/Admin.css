@@ -1,0 +1,44 @@
+.admin
+  span.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left {
+  position: absolute;
+  top: 10px;
+  left: 210px;
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.admin
+  .ant-layout-sider-collapsed
+  span.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left {
+  left: 10px;
+}
+.admin
+  span.ant-layout-sider-zero-width-trigger.ant-layout-sider-zero-width-trigger-left
+  span.anticon.anticon-bars {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.admin a.ant-dropdown-link p {
+  background-color: #001529;
+  color: white;
+}
+.admin .anticon.anticon-down svg {
+  fill: #001529;
+}
+.admin a.ant-dropdown-link:hover .anticon.anticon-down svg {
+  fill: rgba(220, 38, 38);
+}
+.admin a.ant-dropdown-link:hover p {
+  background-color: rgba(220, 38, 38);
+  color: white;
+}
+
+.admin .ant-layout-header {
+  background-color: #fff;
+}
+.admin .ant-layout {
+  min-height: 100vh;
+}

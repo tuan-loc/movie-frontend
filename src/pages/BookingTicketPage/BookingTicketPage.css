@@ -1,0 +1,80 @@
+#trapezoid {
+  border-bottom: 25px solid rgba(0, 0, 0, 0.5);
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.chairs {
+  display: grid;
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+}
+
+.chair,
+.chair-vip,
+.chair-booking,
+.chair-booked {
+  font-size: 11px;
+  padding: 1px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin: 2px;
+  border-radius: 4px;
+  color: black;
+  background: #e2e8f0;
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.chair:hover {
+  background: #cbd5e1;
+}
+
+.chair-vip {
+  color: #e5e7eb;
+  background: #f59e0b;
+}
+
+.chair-vip:hover {
+  background: #d97706;
+}
+
+.chair-booking {
+  color: white;
+  background: #dc2626;
+}
+
+.chair-booked {
+  background: #9ca3af;
+  cursor: no-drop;
+}
+
+.payment-detail ul.ticketChose {
+  height: 20vh;
+  overflow-y: scroll;
+}
+
+@media screen and (min-width: 768px) {
+  .chair,
+  .chair-vip,
+  .chair-booking,
+  .chair-booked {
+    font-size: 1rem;
+    margin: 4px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .chair,
+  .chair-vip,
+  .chair-booking,
+  .chair-booked {
+    font-size: 1rem;
+    margin: 5px;
+  }
+}
